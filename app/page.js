@@ -99,7 +99,7 @@ export default function Home() {
     <div className="min-h-screen flex flex-col selection:bg-red-500 selection:text-white">
       {/* Toast Notification */}
       {toastMessage && (
-        <div className="fixed top-24 right-4 z-50 bg-zinc-900 text-white px-4 py-3 rounded-2xl shadow-2xl border border-zinc-700 flex items-center gap-3 animate-slideIn">
+        <div className="fixed top-20 sm:top-24 left-3 right-3 sm:left-auto sm:right-4 max-w-sm z-50 bg-zinc-900 text-white px-4 py-3 rounded-2xl shadow-2xl border border-zinc-700 flex items-center justify-between gap-3 animate-slideIn">
           <CheckCircle2 className="w-5 h-5 text-emerald-400 shrink-0" />
           <span className="text-xs font-bold">{toastMessage}</span>
           <button
