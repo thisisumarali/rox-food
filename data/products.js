@@ -337,7 +337,7 @@ export const COMPANY_INFO = {
   website: "www.Swizz.pk",
   certifications: ["HACCP Certified", "100% Halal Certified", "SOP Compliant", "ISO Standard Facility"],
   ceo: {
-    name: "Mr. Muhammad Rox (CEO)",
+    name: "Mr. Muhammad (CEO)",
     title: "Chief Executive Officer & Founder",
     image: "/CEO.jpeg",
     quote: "At Rox Food, our mission has always been simple: bring uncompromised purity, royal taste, and authentic Pakistani culinary tradition into every household at an honest price.",
