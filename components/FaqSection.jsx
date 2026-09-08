@@ -17,7 +17,7 @@ export default function FaqSection() {
       a: "Our state-of-the-art food manufacturing facility is located in S.I.T.E Industrial Area, Karachi, Pakistan. We adhere to high hygiene protocols, HACCP standards, and 100% Halal processing."
     },
     {
-      q: "Do you deliver Swiss products outside Karachi across Pakistan?",
+      q: "Do you deliver Swizz products outside Karachi across Pakistan?",
       a: "Yes! While we offer express delivery in Karachi, we also dispatch orders nationwide across Lahore, Islamabad, Rawalpindi, Faisalabad, Multan, Peshawar, Quetta, and other cities through reliable courier partners."
     },
     {
@@ -25,7 +25,7 @@ export default function FaqSection() {
       a: "Yes, all product rates are clearly quoted in PKR (Pakistani Rupees) with transparent pricing. For bulk or wholesale quotes, you can inquire directly on 0310-2067193."
     },
     {
-      q: "What makes Swiss Mixed Achar unique?",
+      q: "What makes Swizz Mixed Achar unique?",
       a: "Our Mixed Achar is made following authentic Desi heritage recipes, cured in 100% pure Mustard Oil (Sarson ka Tel) with whole fenugreek, fennel seeds, and selected raw mangoes, lemons, and green chillies."
     }
   ];
@@ -62,9 +62,8 @@ export default function FaqSection() {
                     {faq.q}
                   </span>
                   <ChevronDown
-                    className={`w-4 h-4 text-stone-400 transition-transform duration-200 shrink-0 ${
-                      isOpen ? "rotate-180 text-[#c8102e]" : ""
-                    }`}
+                    className={`w-4 h-4 text-stone-400 transition-transform duration-200 shrink-0 ${isOpen ? "rotate-180 text-[#c8102e]" : ""
+                      }`}
                   />
                 </button>
 
@@ -89,7 +88,7 @@ export default function FaqSection() {
             </p>
           </div>
           <a
-            href={`https://wa.me/${COMPANY_INFO.whatsappNumberIntl}?text=Assalam-o-Alaikum, I have a query about Rox Food / Swiss products.`}
+            href={`https://wa.me/${COMPANY_INFO.whatsappNumberIntl}?text=Assalam-o-Alaikum, I have a query about Rox Food / Swizz products.`}
             target="_blank"
             rel="noopener noreferrer"
             className="shrink-0 inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold px-4 py-2.5 rounded-xl shadow transition"

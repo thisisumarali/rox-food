@@ -25,7 +25,7 @@ export default function ProductModal({ product, onClose, onAddToCart }) {
   const totalPrice = product.price * quantity;
 
   const handleWhatsAppOrder = () => {
-    const message = `*Order Request - Swiss Foods (Rox Food Pvt Ltd)*
+    const message = `*Order Request - Swizz Foods (Rox Food Pvt Ltd)*
 --------------------------------------
 *Product:* ${product.name}
 *Packaging / Size:* ${product.unit}

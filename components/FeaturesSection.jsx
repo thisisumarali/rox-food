@@ -52,14 +52,14 @@ export default function FeaturesSection() {
   ];
 
   return (
-    <section id="why-swiss" className="py-16 bg-white border-y border-stone-200">
+    <section id="why-Swizz" className="py-16 bg-white border-y border-stone-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto mb-12">
           <span className="text-xs font-bold uppercase tracking-widest text-[#c8102e] bg-red-50 px-3 py-1 rounded-full border border-red-200">
             Why Choose Us
           </span>
           <h2 className="text-3xl sm:text-4xl font-black text-zinc-900 mt-2 tracking-tight">
-            The Rox Food &amp; Swiss Promise
+            The Rox Food &amp; Swizz Promise
           </h2>
           <p className="text-stone-500 text-sm mt-1">
             Setting benchmark standards in Pakistani food processing, taste, and kitchen joy.

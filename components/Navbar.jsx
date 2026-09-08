@@ -29,7 +29,7 @@ export default function Navbar({
   const [searchOpen, setSearchOpen] = useState(false);
 
   const directWhatsAppUrl = `https://wa.me/${COMPANY_INFO.whatsappNumberIntl}?text=${encodeURIComponent(
-    "Assalam-o-Alaikum, I would like to place an order / inquire about Swiss food products (Rox Food Pvt Ltd)."
+    "Assalam-o-Alaikum, I would like to place an order / inquire about Swizz food products (Rox Food Pvt Ltd)."
   )}`;
 
   return (
@@ -76,7 +76,7 @@ export default function Navbar({
             <div className="relative h-12 w-14 sm:h-14 sm:w-16 flex items-center justify-center transition-transform group-hover:scale-105">
               <Image
                 src="/logo.png"
-                alt="Swiss / Swizz Food Logo - Rox Food Pvt Ltd"
+                alt="Swizz / Swizz Food Logo - Rox Food Pvt Ltd"
                 fill
                 sizes="(max-width: 640px) 56px, 64px"
                 className="object-contain"
@@ -86,7 +86,7 @@ export default function Navbar({
             <div className="flex flex-col">
               <div className="flex items-center gap-1.5">
                 <span className="text-lg sm:text-xl font-black tracking-tight text-zinc-900 group-hover:text-[#c8102e] transition-colors leading-none">
-                  SWISS
+                  Swizz
                 </span>
                 <span className="text-[9px] uppercase font-bold tracking-wider bg-red-100 text-[#c8102e] px-1.5 py-0.5 rounded leading-none">
                   Foods
@@ -110,9 +110,8 @@ export default function Navbar({
             <a
               href="#products"
               onClick={() => setSelectedCategory("all")}
-              className={`transition-colors py-2 ${
-                selectedCategory === "all" ? "text-[#c8102e] font-bold" : "hover:text-[#c8102e]"
-              }`}
+              className={`transition-colors py-2 ${selectedCategory === "all" ? "text-[#c8102e] font-bold" : "hover:text-[#c8102e]"
+                }`}
             >
               All Products (17)
             </a>
@@ -130,9 +129,8 @@ export default function Navbar({
 
               <div
                 onMouseLeave={() => setCategoryDropdown(false)}
-                className={`absolute top-full left-0 w-56 bg-white rounded-2xl shadow-xl border border-stone-200 py-2 transition-all ${
-                  categoryDropdown ? "opacity-100 visible translate-y-0" : "opacity-0 invisible -translate-y-2 pointer-events-none"
-                }`}
+                className={`absolute top-full left-0 w-56 bg-white rounded-2xl shadow-xl border border-stone-200 py-2 transition-all ${categoryDropdown ? "opacity-100 visible translate-y-0" : "opacity-0 invisible -translate-y-2 pointer-events-none"
+                  }`}
               >
                 {CATEGORIES.filter(c => c.id !== "all").map((cat) => (
                   <a
@@ -162,10 +160,10 @@ export default function Navbar({
             </a>
 
             <a
-              href="#why-swiss"
+              href="#why-Swizz"
               className="hover:text-[#c8102e] transition-colors py-2"
             >
-              Why Swiss
+              Why Swizz
             </a>
           </nav>
 
@@ -305,11 +303,11 @@ export default function Navbar({
                 Message from CEO
               </a>
               <a
-                href="#why-swiss"
+                href="#why-Swizz"
                 onClick={() => setMobileMenuOpen(false)}
                 className="block px-3 py-2 rounded-xl hover:bg-stone-50"
               >
-                Why Swiss Foods
+                Why Swizz Foods
               </a>
             </div>
           </div>

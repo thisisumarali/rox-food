@@ -9,12 +9,12 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 });
 
 export const metadata = {
-  title: "Swiss Foods | Rox Food Pvt Limited - Official E-Commerce Store",
+  title: "Swizz Foods | Rox Food Pvt Limited - Official E-Commerce Store",
   description:
-    "Explore premium Swiss food products by Rox Food Pvt Ltd Karachi. Fresh Strawberry Jam, authentic Mix Achar in Sarson oil, Chilli Garlic Sauce, and Pure Synthetic Vinegar. Order directly on WhatsApp: 0310-2067193.",
+    "Explore premium Swizz food products by Rox Food Pvt Ltd Karachi. Fresh Strawberry Jam, authentic Mix Achar in Sarson oil, Chilli Garlic Sauce, and Pure Synthetic Vinegar. Order directly on WhatsApp: 0310-2067193.",
   keywords: [
     "Rox Food Pvt Limited",
-    "Swiss Foods Pakistan",
+    "Swizz Foods Pakistan",
     "Swizz Jam",
     "Mix Achar Sarson Oil",
     "Strawberry Jam Pakistan",

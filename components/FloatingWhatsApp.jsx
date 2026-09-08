@@ -5,7 +5,7 @@ import { COMPANY_INFO } from "../data/products";
 
 export default function FloatingWhatsApp() {
   const directWhatsAppUrl = `https://wa.me/${COMPANY_INFO.whatsappNumberIntl}?text=${encodeURIComponent(
-    "Assalam-o-Alaikum, I am visiting the Swiss Foods / Rox Food website and would like to order or inquire about products."
+    "Assalam-o-Alaikum, I am visiting the Swizz Foods / Rox Food website and would like to order or inquire about products."
   )}`;
 
   return (

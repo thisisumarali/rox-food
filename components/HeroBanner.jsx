@@ -7,12 +7,7 @@ import {
   MessageCircle,
   ShoppingBag,
   ChevronLeft,
-  ChevronRight,
-  Sparkles,
-  ShieldCheck,
-  CheckCircle2,
-  ArrowRight,
-  Tag
+  ChevronRight
 } from "lucide-react";
 
 export default function HeroBanner({ onSelectProduct, onAddToCart }) {
@@ -22,7 +17,7 @@ export default function HeroBanner({ onSelectProduct, onAddToCart }) {
   const slides = [
     {
       id: "stawberry-jam-bucket",
-      name: "Swiss Strawberry Jam",
+      name: "Swizz Strawberry Jam",
       subtitle: "Meetthi Eid Ki Meetthi Khushi",
       categoryTag: "🍓 Premium Fruit Preserves",
       price: 650,
@@ -34,8 +29,8 @@ export default function HeroBanner({ onSelectProduct, onAddToCart }) {
       highlights: ["Real Fruit Pulp", "Zero Added Gelatin", "100% Halal Certified", "Karachi Facility"]
     },
     {
-      id: "swiss-mix-achar-eid",
-      name: "Swiss Mix Achar in Oil",
+      id: "Swizz-mix-achar-eid",
+      name: "Swizz Mix Achar in Oil",
       subtitle: "Asli Sarson Ka Tel & Desi Masala",
       categoryTag: "🌶️ Traditional Desi Pickles",
       price: 490,
@@ -47,8 +42,8 @@ export default function HeroBanner({ onSelectProduct, onAddToCart }) {
       highlights: ["Pure Mustard (Sarson) Oil", "Desi Dastarkhwan Heritage", "Aged Traditional Recipe", "100% Halal"]
     },
     {
-      id: "swiss-synthetic-vinegar-bottle",
-      name: "Swiss Synthetic Vinegar",
+      id: "Swizz-synthetic-vinegar-bottle",
+      name: "Swizz Synthetic Vinegar",
       subtitle: "Crystal Clear Purity & Balanced Acidity",
       categoryTag: "🍶 Pure Kitchen Essentials",
       price: 190,
@@ -79,7 +74,7 @@ export default function HeroBanner({ onSelectProduct, onAddToCart }) {
   }, [isPaused, nextSlide]);
 
   const getWhatsAppUrl = (slide) => {
-    const text = `Assalam-o-Alaikum Rox Food / Swiss!
+    const text = `Assalam-o-Alaikum Rox Food / Swizz!
 I want to order from the Hero Slide Banner:
 - *Product:* ${slide.name} (${slide.unit})
 - *Price:* Rs. ${slide.price} PKR
@@ -105,11 +100,10 @@ Please confirm delivery to my address and total bill.`;
           return (
             <div
               key={slide.id}
-              className={`absolute inset-0 w-full h-full transition-all duration-1000 ease-in-out ${
-                isActive
+              className={`absolute inset-0 w-full h-full transition-all duration-1000 ease-in-out ${isActive
                   ? "opacity-100 scale-100 z-10 pointer-events-auto"
                   : "opacity-0 scale-105 z-0 pointer-events-none"
-              }`}
+                }`}
             >
               {/* 1. The Real Product Image AS the Full Slide Background */}
               <div className="absolute inset-0 w-full h-full overflow-hidden">
@@ -131,21 +125,9 @@ Please confirm delivery to my address and total bill.`;
               {/* 3. Slide Content Overlay */}
               <div className="relative max-w-7xl mx-auto h-full px-4 sm:px-6 lg:px-8 py-14 lg:py-20 flex items-center">
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center w-full">
-                  
+
                   {/* Left Column: Glassmorphic Banner Card & Call-to-Actions */}
                   <div className="lg:col-span-8 text-white space-y-5 text-center lg:text-left">
-                    {/* Top Badges */}
-                    <div className="flex flex-wrap items-center justify-center lg:justify-start gap-2.5">
-                      <span className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-black bg-white/20 backdrop-blur-md text-white border border-white/30 tracking-wide uppercase shadow-lg">
-                        <Sparkles className="w-3.5 h-3.5 text-amber-300" />
-                        {slide.badge}
-                      </span>
-                      <span className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-bold bg-black/50 backdrop-blur-md text-amber-200 border border-white/15">
-                        <Tag className="w-3.5 h-3.5" />
-                        {slide.categoryTag}
-                      </span>
-                    </div>
-
                     {/* Headline */}
                     <div className="space-y-1.5">
                       <p className="text-amber-300 font-black text-sm sm:text-base lg:text-lg tracking-widest uppercase drop-shadow">
@@ -161,42 +143,10 @@ Please confirm delivery to my address and total bill.`;
                       {slide.tagline}
                     </p>
 
-                    {/* Highlights Pills */}
-                    <div className="flex flex-wrap items-center justify-center lg:justify-start gap-2 pt-1">
-                      {slide.highlights.map((h, i) => (
-                        <div
-                          key={i}
-                          className="flex items-center gap-1.5 bg-black/60 backdrop-blur-md border border-white/20 px-3 py-1.5 rounded-xl text-xs text-stone-100 font-semibold shadow-md"
-                        >
-                          <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
-                          <span>{h}</span>
-                        </div>
-                      ))}
-                    </div>
 
-                    {/* Pricing Box */}
-                    <div className="flex items-baseline justify-center lg:justify-start gap-3 pt-2">
-                      <div className="bg-black/60 backdrop-blur-xl border border-white/25 px-5 py-2.5 rounded-2xl flex items-baseline gap-2.5 shadow-2xl">
-                        <span className="text-xs uppercase font-black text-amber-300 tracking-wider">
-                          Price in PKR:
-                        </span>
-                        <span className="text-2xl sm:text-3xl lg:text-4xl font-black text-white">
-                          Rs. {slide.price}
-                        </span>
-                        <span className="text-xs text-stone-300 font-bold">({slide.unit})</span>
-                        {slide.originalPrice && (
-                          <span className="text-xs text-stone-400 line-through ml-1">
-                            Rs. {slide.originalPrice}
-                          </span>
-                        )}
-                        <span className="text-[10px] font-bold text-emerald-300 bg-emerald-950/70 border border-emerald-500/40 px-2 py-0.5 rounded-full ml-1">
-                          Special Rate
-                        </span>
-                      </div>
-                    </div>
 
-                    {/* Action CTAs */}
-                    <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3 pt-3">
+                    {/* Main Action Buttons */}
+                    <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3 pt-2">
                       <a
                         href={waUrl}
                         target="_blank"
@@ -214,31 +164,6 @@ Please confirm delivery to my address and total bill.`;
                         <ShoppingBag className="w-5 h-5" />
                         <span>+ Add to Basket</span>
                       </button>
-
-                      <a
-                        href="#products"
-                        className="hidden sm:inline-flex items-center gap-1.5 text-xs font-bold text-stone-300 hover:text-white px-3 py-2 transition"
-                      >
-                        <span>View All 17 Products</span>
-                        <ArrowRight className="w-3.5 h-3.5" />
-                      </a>
-                    </div>
-                  </div>
-
-                  {/* Right Column: Mini Clear Stamp Card highlighting Rox Food Pvt Ltd */}
-                  <div className="hidden lg:flex lg:col-span-4 justify-end">
-                    <div className="bg-black/50 backdrop-blur-xl border border-white/20 p-5 rounded-3xl shadow-2xl text-white max-w-xs space-y-3">
-                      <div className="flex items-center gap-2 text-xs font-bold text-amber-300">
-                        <ShieldCheck className="w-4 h-4 text-emerald-400" />
-                        <span>Rox Food Pvt Ltd Karachi</span>
-                      </div>
-                      <p className="text-xs text-stone-300 leading-relaxed">
-                        Authentic culinary products processed under ISO &amp; HACCP quality standards. Freshly dispatched nationwide.
-                      </p>
-                      <div className="pt-2 border-t border-white/10 flex items-center justify-between text-[11px] text-stone-400">
-                        <span>Helpline:</span>
-                        <strong className="text-white">0310-2067193</strong>
-                      </div>
                     </div>
                   </div>
 
@@ -265,46 +190,20 @@ Please confirm delivery to my address and total bill.`;
           <ChevronRight className="w-6 h-6" />
         </button>
 
-        {/* Bottom Slide Switcher Bar / Thumbnails */}
-        <div className="absolute bottom-5 sm:bottom-7 left-1/2 -translate-x-1/2 z-20 w-full max-w-xl px-4">
-          <div className="bg-black/70 backdrop-blur-2xl border border-white/25 rounded-2xl p-2 flex items-center justify-between gap-2 shadow-2xl">
-            {slides.map((s, i) => {
-              const isSelected = i === currentSlide;
-              return (
-                <button
-                  key={s.id}
-                  onClick={() => setCurrentSlide(i)}
-                  className={`flex-1 flex items-center gap-2.5 p-1.5 sm:p-2 rounded-xl transition-all text-left ${
-                    isSelected
-                      ? "bg-white/25 border border-white/40 shadow-lg scale-102"
-                      : "hover:bg-white/10 opacity-70 hover:opacity-100 border border-transparent"
-                  }`}
-                >
-                  <div className="relative w-8 h-8 sm:w-10 sm:h-10 rounded-lg bg-black/40 overflow-hidden shrink-0 border border-white/20">
-                    <Image
-                      src={s.image}
-                      alt={s.name}
-                      fill
-                      sizes="40px"
-                      className="object-cover"
-                    />
-                  </div>
-                  <div className="min-w-0 flex-1 hidden sm:block">
-                    <p className="text-[11px] font-bold text-white truncate">
-                      {s.name.replace("Swiss ", "")}
-                    </p>
-                    <p className="text-[10px] font-black text-amber-300">
-                      Rs. {s.price} PKR
-                    </p>
-                  </div>
-                  {/* Mobile progress bar */}
-                  <div className="w-full sm:hidden h-1 bg-white/20 rounded-full overflow-hidden">
-                    {isSelected && <div className="h-full bg-amber-400 rounded-full" />}
-                  </div>
-                </button>
-              );
-            })}
-          </div>
+        {/* Minimal Slide Indicator Dots */}
+        <div className="absolute bottom-5 sm:bottom-7 left-1/2 -translate-x-1/2 z-20 flex items-center gap-2">
+          {slides.map((_, i) => (
+            <button
+              key={i}
+              onClick={() => setCurrentSlide(i)}
+              className={`transition-all duration-300 rounded-full ${
+                i === currentSlide
+                  ? "w-8 h-2 bg-amber-400 shadow-md"
+                  : "w-2 h-2 bg-white/40 hover:bg-white/70"
+              }`}
+              aria-label={`Go to slide ${i + 1}`}
+            />
+          ))}
         </div>
       </div>
     </section>

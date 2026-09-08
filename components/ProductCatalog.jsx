@@ -65,7 +65,7 @@ export default function ProductCatalog({
   };
 
   const getWhatsAppOrderUrl = (product) => {
-    const text = `Assalam-o-Alaikum Rox Food / Swiss! I would like to order:
+    const text = `Assalam-o-Alaikum Rox Food / Swizz! I would like to order:
 - *Product:* ${product.name}
 - *Size / Unit:* ${product.unit}
 - *Price:* Rs. ${product.price} PKR
@@ -85,10 +85,10 @@ Please share available stock, delivery time, and confirmation details for Karach
               <Sparkles className="w-3.5 h-3.5" /> Complete Product Range
             </div>
             <h2 className="text-3xl sm:text-4xl font-black text-zinc-900 tracking-tight">
-              Swiss Quality <span className="text-[#c8102e]">Culinary Collection</span>
+              Swizz Quality <span className="text-[#c8102e]">Culinary Collection</span>
             </h2>
             <p className="text-stone-600 text-sm sm:text-base mt-1 max-w-xl">
-              All manufactured with premium ingredients by Rox Food Pvt Limited. 
+              All manufactured with premium ingredients by Rox Food Pvt Limited.
               Select your favorites and order directly on WhatsApp.
             </p>
           </div>
@@ -119,17 +119,15 @@ Please share available stock, delivery time, and confirmation details for Karach
               <button
                 key={cat.id}
                 onClick={() => setSelectedCategory(cat.id)}
-                className={`whitespace-nowrap px-4 py-2.5 rounded-2xl text-xs font-bold transition-all flex items-center gap-2 ${
-                  isSelected
+                className={`whitespace-nowrap px-4 py-2.5 rounded-2xl text-xs font-bold transition-all flex items-center gap-2 ${isSelected
                     ? "bg-[#c8102e] text-white shadow-lg shadow-red-700/25 scale-105"
                     : "bg-white text-zinc-700 hover:bg-stone-100 border border-stone-200"
-                }`}
+                  }`}
               >
                 <span>{cat.label}</span>
                 <span
-                  className={`text-[10px] px-1.5 py-0.5 rounded-full ${
-                    isSelected ? "bg-white/20 text-white" : "bg-stone-100 text-stone-600"
-                  }`}
+                  className={`text-[10px] px-1.5 py-0.5 rounded-full ${isSelected ? "bg-white/20 text-white" : "bg-stone-100 text-stone-600"
+                    }`}
                 >
                   {cat.count}
                 </span>
@@ -288,11 +286,10 @@ Please share available stock, delivery time, and confirmation details for Karach
                         {/* Add to Cart Drawer */}
                         <button
                           onClick={() => handleAddToCartWithFeedback(product)}
-                          className={`inline-flex items-center justify-center gap-1 text-xs font-bold py-2.5 px-2 rounded-xl border transition active:scale-95 ${
-                            isJustAdded
+                          className={`inline-flex items-center justify-center gap-1 text-xs font-bold py-2.5 px-2 rounded-xl border transition active:scale-95 ${isJustAdded
                               ? "bg-emerald-100 text-emerald-800 border-emerald-300"
                               : "bg-stone-100 hover:bg-[#c8102e] hover:text-white hover:border-[#c8102e] text-zinc-800 border-stone-200"
-                          }`}
+                            }`}
                         >
                           {isJustAdded ? (
                             <>

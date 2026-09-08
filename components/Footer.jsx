@@ -13,7 +13,7 @@ import {
 } from "lucide-react";
 
 export default function Footer({ onSelectCategory }) {
-  const directWhatsAppUrl = `https://wa.me/${COMPANY_INFO.whatsappNumberIntl}?text=Assalam-o-Alaikum, I am visiting your website and have a question for Rox Food / Swiss.`;
+  const directWhatsAppUrl = `https://wa.me/${COMPANY_INFO.whatsappNumberIntl}?text=Assalam-o-Alaikum, I am visiting your website and have a question for Rox Food / Swizz.`;
 
   return (
     <footer className="bg-zinc-950 text-stone-300 pt-16 pb-12 border-t border-zinc-800">
@@ -25,7 +25,7 @@ export default function Footer({ onSelectCategory }) {
               <div className="relative h-14 w-18 bg-white/95 backdrop-blur-sm rounded-xl p-1.5 shadow-md overflow-hidden shrink-0">
                 <Image
                   src="/logo.png"
-                  alt="Swiss / Swizz Food Logo"
+                  alt="Swizz / Swizz Food Logo"
                   fill
                   sizes="72px"
                   className="object-contain"
@@ -33,7 +33,7 @@ export default function Footer({ onSelectCategory }) {
               </div>
               <div>
                 <span className="text-xl font-black text-white tracking-tight block">
-                  SWISS FOOD
+                  Swizz FOOD
                 </span>
                 <span className="block text-[10px] uppercase tracking-widest text-[#c8102e] font-extrabold">
                   {COMPANY_INFO.name} • EST. 1978
@@ -84,8 +84,8 @@ export default function Footer({ onSelectCategory }) {
                 </a>
               </li>
               <li>
-                <a href="#why-swiss" className="hover:text-white transition">
-                  Why Swiss Foods
+                <a href="#why-Swizz" className="hover:text-white transition">
+                  Why Swizz Foods
                 </a>
               </li>
               <li>

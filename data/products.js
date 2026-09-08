@@ -2,7 +2,7 @@ export const PRODUCTS = [
   // Jams & Marmalades
   {
     id: "stawberry-jam-bucket",
-    name: "Swiss Strawberry Jam (Family Tub)",
+    name: "Swizz Strawberry Jam (Family Tub)",
     category: "jams",
     categoryLabel: "Jams & Spreads",
     price: 650,
@@ -13,13 +13,13 @@ export const PRODUCTS = [
     rating: 4.9,
     reviewsCount: 142,
     shortDesc: "Rich, luscious strawberry jam made from farm-picked ripe strawberries. Perfect for breakfast toast, cakes, and desserts.",
-    description: "Swiss Strawberry Jam brings the sweet, festive joy ('Meetthi Eid Ki Meetthi Khushi') of authentic strawberries right to your family table. Crafted with selected fruit pulp and balanced sweetness by Rox Food Pvt Ltd.",
+    description: "Swizz Strawberry Jam brings the sweet, festive joy ('Meetthi Eid Ki Meetthi Khushi') of authentic strawberries right to your family table. Crafted with selected fruit pulp and balanced sweetness by Rox Food Pvt Ltd.",
     ingredients: "Strawberry Pulp, Sugar, Pectin (E440), Citric Acid (E330), Permitted Food Colors & Preservatives.",
     features: ["Real Fruit Pulp", "Zero Added Gelatin", "100% Halal Certified", "Rich Texture"]
   },
   {
     id: "mango-jam",
-    name: "Swiss Premium Mango Jam",
+    name: "Swizz Premium Mango Jam",
     category: "jams",
     categoryLabel: "Jams & Spreads",
     price: 420,
@@ -30,13 +30,13 @@ export const PRODUCTS = [
     rating: 4.8,
     reviewsCount: 98,
     shortDesc: "Sun-ripened Sindhri and Chaunsa mango goodness captured in a velvety, golden spread.",
-    description: "Indulge in Pakistan's king of fruits all year round with Swiss Mango Jam. Smooth, sweet, and bursting with tropical aroma for your morning breakfast.",
+    description: "Indulge in Pakistan's king of fruits all year round with Swizz Mango Jam. Smooth, sweet, and bursting with tropical aroma for your morning breakfast.",
     ingredients: "Selected Mango Pulp, Cane Sugar, Pectin, Citric Acid, Natural Identical Mango Flavor.",
     features: ["Aromatic Pakistani Mangoes", "100% Halal Certified", "Kid Approved", "Spreads Smoothly"]
   },
   {
     id: "golden-apple-jam",
-    name: "Swiss Golden Apple Jam",
+    name: "Swizz Golden Apple Jam",
     category: "jams",
     categoryLabel: "Jams & Spreads",
     price: 430,
@@ -53,7 +53,7 @@ export const PRODUCTS = [
   },
   {
     id: "red-apple-jam",
-    name: "Swiss Red Apple Jam",
+    name: "Swizz Red Apple Jam",
     category: "jams",
     categoryLabel: "Jams & Spreads",
     price: 430,
@@ -64,13 +64,13 @@ export const PRODUCTS = [
     rating: 4.8,
     reviewsCount: 77,
     shortDesc: "Sweet, ruby-red apples gently stewed to aromatic perfection. A comforting morning classic.",
-    description: "Swiss Red Apple Jam offers the comforting taste of homemade apple preserves with a smooth texture that glides across warm bread, parathas, and pastries.",
+    description: "Swizz Red Apple Jam offers the comforting taste of homemade apple preserves with a smooth texture that glides across warm bread, parathas, and pastries.",
     ingredients: "Red Apple Puree, Sugar, Citric Acid, Pectin, Permitted Food Color.",
     features: ["Selected Red Apples", "Breakfast Staple", "Pure & Hygienic", "Halal Certified"]
   },
   {
     id: "orange-marmalade",
-    name: "Swiss Orange Marmalade",
+    name: "Swizz Orange Marmalade",
     category: "jams",
     categoryLabel: "Jams & Spreads",
     price: 450,
@@ -87,7 +87,7 @@ export const PRODUCTS = [
   },
   {
     id: "pineapple-jam",
-    name: "Swiss Exotic Pineapple Jam",
+    name: "Swizz Exotic Pineapple Jam",
     category: "jams",
     categoryLabel: "Jams & Spreads",
     price: 460,
@@ -104,7 +104,7 @@ export const PRODUCTS = [
   },
   {
     id: "mixed-fruit-jam",
-    name: "Swiss Mixed Fruit Jam",
+    name: "Swizz Mixed Fruit Jam",
     category: "jams",
     categoryLabel: "Jams & Spreads",
     price: 440,
@@ -122,8 +122,8 @@ export const PRODUCTS = [
 
   // Pickles & Achars (Traditional in Sarson/Mustard Oil)
   {
-    id: "swiss-mix-achar-eid",
-    name: "Swiss Mix Achar (Eid Special Tub)",
+    id: "Swizz-mix-achar-eid",
+    name: "Swizz Mix Achar (Eid Special Tub)",
     category: "pickles",
     categoryLabel: "Traditional Pickles",
     price: 490,
@@ -134,13 +134,13 @@ export const PRODUCTS = [
     rating: 5.0,
     reviewsCount: 230,
     shortDesc: "Traditional Pakistani mixed pickle drenched in aromatic mustard oil (Sarson ka Tel) and coarse spices.",
-    description: "The crown jewel of Swiss Pickles! Crafted with raw green mango, crunchy carrots, tender lemons, and whole green chillies steeped in fragrant Sarson oil and desi masala. A staple for daal-chawal, biryani, and parathas.",
+    description: "The crown jewel of Swizz Pickles! Crafted with raw green mango, crunchy carrots, tender lemons, and whole green chillies steeped in fragrant Sarson oil and desi masala. A staple for daal-chawal, biryani, and parathas.",
     ingredients: "Raw Mango, Carrot, Lemon, Green Chilli, Mustard Oil (Sarson Oil), Salt, Fenugreek, Fennel, Kalonji, Turmeric, Acetic Acid.",
     features: ["Pure Mustard Oil (Sarson)", "Authentic Desi Recipe", "Coarsely Ground Spices", "100% Halal Certified"]
   },
   {
     id: "green-chilli-pickle",
-    name: "Swiss Hari Mirch Pickle in Sarson Oil",
+    name: "Swizz Hari Mirch Pickle in Sarson Oil",
     category: "pickles",
     categoryLabel: "Traditional Pickles",
     price: 480,
@@ -157,7 +157,7 @@ export const PRODUCTS = [
   },
   {
     id: "mix-achaar-pickle-inoil",
-    name: "Swiss Desi Mix Achaar in Pure Oil",
+    name: "Swizz Desi Mix Achaar in Pure Oil",
     category: "pickles",
     categoryLabel: "Traditional Pickles",
     price: 460,
@@ -174,7 +174,7 @@ export const PRODUCTS = [
   },
   {
     id: "mix-pickle-classic",
-    name: "Swiss Traditional Mix Pickle Value Tub",
+    name: "Swizz Traditional Mix Pickle Value Tub",
     category: "pickles",
     categoryLabel: "Traditional Pickles",
     price: 520,
@@ -193,7 +193,7 @@ export const PRODUCTS = [
   // Sauces & Condiments
   {
     id: "chilli-garlic-sauce",
-    name: "Swiss Chilli Garlic Sauce (Easy-Pour Jug)",
+    name: "Swizz Chilli Garlic Sauce (Easy-Pour Jug)",
     category: "sauces",
     categoryLabel: "Sauces & Condiments",
     price: 480,
@@ -210,7 +210,7 @@ export const PRODUCTS = [
   },
   {
     id: "tomato-ketchup-classic",
-    name: "Swiss Classic Tomato Ketchup",
+    name: "Swizz Classic Tomato Ketchup",
     category: "sauces",
     categoryLabel: "Sauces & Condiments",
     price: 380,
@@ -227,7 +227,7 @@ export const PRODUCTS = [
   },
   {
     id: "ketchup-sauce-dip",
-    name: "Swiss Tomato Ketchup & Table Sauce",
+    name: "Swizz Tomato Ketchup & Table Sauce",
     category: "sauces",
     categoryLabel: "Sauces & Condiments",
     price: 410,
@@ -244,7 +244,7 @@ export const PRODUCTS = [
   },
   {
     id: "chinese-sauces-3in1",
-    name: "Swiss Chinese Sauces 3-in-1 Combo Pack",
+    name: "Swizz Chinese Sauces 3-in-1 Combo Pack",
     category: "sauces",
     categoryLabel: "Sauces & Condiments",
     price: 550,
@@ -255,13 +255,13 @@ export const PRODUCTS = [
     rating: 5.0,
     reviewsCount: 190,
     shortDesc: "Complete Chinese cooking trio: Chilli Sauce, Synthetic Vinegar, and Dark Soy Sauce.",
-    description: "The ultimate culinary gift pack for Desi Chinese food lovers! Includes premium Swiss Chilli Sauce, Swiss Synthetic Vinegar, and rich Swiss Soy Sauce in fluted spiral bottles. Make restaurant-quality Fried Rice, Chow Mein, and Manchurian at home.",
+    description: "The ultimate culinary gift pack for Desi Chinese food lovers! Includes premium Swizz Chilli Sauce, Swizz Synthetic Vinegar, and rich Swizz Soy Sauce in fluted spiral bottles. Make restaurant-quality Fried Rice, Chow Mein, and Manchurian at home.",
     ingredients: "Pack of 3: Chilli Sauce (Red Chillies, Vinegar, Garlic), Synthetic Vinegar (Glacial Acetic Acid), Soy Sauce (Fermented Soy Extract, Caramel).",
     features: ["3 Essential Cooking Sauces", "Big Savings Value Pack", "Perfect for Desi-Chinese Cooking", "Aesthetic Spiral Glass-Look Bottles"]
   },
   {
     id: "chinese-sauce-family",
-    name: "Swiss Asian Trio Kitchen Value Pack",
+    name: "Swizz Asian Trio Kitchen Value Pack",
     category: "sauces",
     categoryLabel: "Sauces & Condiments",
     price: 580,
@@ -271,7 +271,7 @@ export const PRODUCTS = [
     tag: "Chef's Choice",
     rating: 4.9,
     reviewsCount: 112,
-    shortDesc: "Essential pantry trio of Swiss condiments for soups, stir-fries, and table dipping.",
+    shortDesc: "Essential pantry trio of Swizz condiments for soups, stir-fries, and table dipping.",
     description: "Packaged tightly for freshness and long kitchen shelf life. Each bottle is calibrated for authentic Asian cooking taste and acidity balance.",
     ingredients: "Chilli Sauce, Synthetic Vinegar, Dark Soy Sauce.",
     features: ["Kitchen Must-Have", "Sealed Freshness Shrink-Wrap", "Halal Ingredients", "Best for Soups & Noodles"]
@@ -279,8 +279,8 @@ export const PRODUCTS = [
 
   // Vinegars
   {
-    id: "swiss-synthetic-vinegar-bottle",
-    name: "Swiss Synthetic Vinegar (Fluted Bottle)",
+    id: "Swizz-synthetic-vinegar-bottle",
+    name: "Swizz Synthetic Vinegar (Fluted Bottle)",
     category: "vinegar",
     categoryLabel: "Vinegars & Pickling",
     price: 190,
@@ -291,13 +291,13 @@ export const PRODUCTS = [
     rating: 4.9,
     reviewsCount: 154,
     shortDesc: "Crystal clear, high-purity synthetic table vinegar for cooking, marinating, and salad dressing.",
-    description: "Swiss Synthetic Vinegar by Rox Food Pvt Ltd is distilled to precision, providing clean, sharp acidity that tenders meat, enhances salad dressings, and preserves homemade pickles effortlessly.",
+    description: "Swizz Synthetic Vinegar by Rox Food Pvt Ltd is distilled to precision, providing clean, sharp acidity that tenders meat, enhances salad dressings, and preserves homemade pickles effortlessly.",
     ingredients: "Purified Water, Synthetic Acetic Acid (Glacial) 4.5% - 5% Acidity.",
     features: ["Crystal Clear Purity", "Multi-Purpose Culinary & Pickling", "Ergonomic Fluted Grip Bottle", "100% Halal Certified"]
   },
   {
-    id: "swiss-classic-vinegar",
-    name: "Swiss Pure White Table Vinegar",
+    id: "Swizz-classic-vinegar",
+    name: "Swizz Pure White Table Vinegar",
     category: "vinegar",
     categoryLabel: "Vinegars & Pickling",
     price: 180,
@@ -324,7 +324,7 @@ export const CATEGORIES = [
 
 export const COMPANY_INFO = {
   name: "Rox Food Pvt Limited",
-  brand: "Swiss",
+  brand: "Swizz",
   brandDisplay: "Swizz",
   established: "1978",
   logo: "/logo.png",
@@ -341,6 +341,6 @@ export const COMPANY_INFO = {
     title: "Chief Executive Officer & Founder",
     image: "/CEO.jpeg",
     quote: "At Rox Food, our mission has always been simple: bring uncompromised purity, royal taste, and authentic Pakistani culinary tradition into every household at an honest price.",
-    message: "From our high-tech processing lines in Karachi to dining tables across the nation, every jar of Swiss Jam, bucket of traditional Achar in Sarson oil, and bottle of sauce is prepared with utmost hygiene, love, and strict Halal standards. We don't just sell food—we serve the joy of family feasts."
+    message: "From our high-tech processing lines in Karachi to dining tables across the nation, every jar of Swizz Jam, bucket of traditional Achar in Sarson oil, and bottle of sauce is prepared with utmost hygiene, love, and strict Halal standards. We don't just sell food—we serve the joy of family feasts."
   }
 };

@@ -47,7 +47,7 @@ export default function CartDrawer({
       )
       .join("\n");
 
-    const message = `*NEW ORDER - SWISS FOODS (ROX FOOD PVT LTD)*
+    const message = `*NEW ORDER - Swizz FOODS (ROX FOOD PVT LTD)*
 =================================
 *CUSTOMER DETAILS:*
 • *Name:* ${customerName.trim() || "Not provided"}
@@ -109,7 +109,7 @@ Please confirm my order, shipping charges, and delivery schedule. Thank you!`;
                 </div>
                 <h3 className="text-base font-bold text-zinc-800">Your basket is empty</h3>
                 <p className="text-xs text-stone-500 max-w-xs mx-auto">
-                  Explore our Swiss Strawberry Jam, traditional Sarson oil pickles, sauces, and vinegars to start ordering.
+                  Explore our Swizz Strawberry Jam, traditional Sarson oil pickles, sauces, and vinegars to start ordering.
                 </p>
                 <button
                   onClick={onClose}

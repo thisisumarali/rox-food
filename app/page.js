@@ -24,7 +24,7 @@ export default function Home() {
   // Load cart from localStorage on client mount
   useEffect(() => {
     try {
-      const saved = localStorage.getItem("rox_swiss_cart");
+      const saved = localStorage.getItem("rox_Swizz_cart");
       if (saved) {
         setCartItems(JSON.parse(saved));
       }
@@ -36,7 +36,7 @@ export default function Home() {
   // Sync cart to localStorage
   useEffect(() => {
     try {
-      localStorage.setItem("rox_swiss_cart", JSON.stringify(cartItems));
+      localStorage.setItem("rox_Swizz_cart", JSON.stringify(cartItems));
     } catch (e) {
       console.error("Failed to save cart to storage", e);
     }

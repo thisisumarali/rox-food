@@ -51,7 +51,7 @@ export default function CeoMessage() {
                   className="object-cover object-top group-hover:scale-105 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
-                
+
                 {/* Overlay Name Tag */}
                 <div className="absolute bottom-4 left-4 right-4 bg-zinc-950/80 backdrop-blur-md p-3.5 rounded-xl border border-white/10 text-left">
                   <p className="text-base font-bold text-white tracking-wide">
@@ -92,10 +92,10 @@ export default function CeoMessage() {
                   {COMPANY_INFO.ceo.message}
                 </p>
                 <p className="text-stone-400 text-sm">
-                  Whether it is our flagship <strong>Swiss Strawberry Jam</strong> crafted for Eid celebrations, 
-                  our authentic <strong>Mix Achar</strong> cured in pure Sarson ka Tel, or our crystal clear <strong>Vinegar</strong>, 
-                  we take personal pride in knowing our products grace thousands of dastarkhwans every day. 
-                  We welcome nationwide retailers, wholesalers, and consumers to experience the Swiss standard.
+                  Whether it is our flagship <strong>Swizz Strawberry Jam</strong> crafted for Eid celebrations,
+                  our authentic <strong>Mix Achar</strong> cured in pure Sarson ka Tel, or our crystal clear <strong>Vinegar</strong>,
+                  we take personal pride in knowing our products grace thousands of dastarkhwans every day.
+                  We welcome nationwide retailers, wholesalers, and consumers to experience the Swizz standard.
                 </p>
               </div>
 
